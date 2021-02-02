@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programa de Colas</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <h1>Escritorio</h1>
+    <h4>Atendiendo a <small>....</small></h4>
+
+    <button class="btn btn-primary">
+        Atender siguiente ticket
+    </button>
+
+
+    <!-- Importamos la libreria de jquery-->
+    <script src="js/libs/jquery.min.js"></script>
+
+    <!-- llamamos a la libreria de  socket.io para que nos funcione en el archivo socket.nuevo-ticket.js-->
+    <script src="socket.io/socket.io.js"></script>
+
+    <!-- Importamos socket.escritorio  -->
+    <script src="js/socket.escritorio.js"></script>
+</body>
+
+</html>
